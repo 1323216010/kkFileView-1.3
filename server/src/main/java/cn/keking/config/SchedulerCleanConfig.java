@@ -31,7 +31,7 @@ public class SchedulerCleanConfig {
     public void clean() {
         logger.info("Cache clean start");
         cacheService.cleanCache();
-        KkFileUtils.deleteDirectory(fileDir);
+/*        KkFileUtils.deleteDirectory(fileDir);*/
         logger.info("Cache clean end");
     }
 }
